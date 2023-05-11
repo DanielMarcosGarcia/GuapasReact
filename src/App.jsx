@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       <Header />
-      <ItemListContainer />
+      <ItemListContainer stock={"No se encontraron productos!"} />
       <Footer />
     </div>
   );
